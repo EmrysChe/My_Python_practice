@@ -1,0 +1,5 @@
+print("what kind of system you are using?")
+str1 = input()
+print("so,you are using %s" % str1)
+str2 = input("try to input again: ")
+print("so,you are using %s" % str2)

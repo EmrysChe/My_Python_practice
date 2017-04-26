@@ -19,3 +19,11 @@
 Please do not send me __something strange__, I am still a child...
 
 PS:I am not good at English.
+
+## 2017.4.26更新
+
+codes中增加了ex\_5\_string.py、ex\_6\_much\_more\_print.py、ex\_7\_escape\_sequences.py、ex\_8\_input.py文件；
+
+增加了python学习笔记.md,记录我学Python中的一些知识点和心得;
+
+更新了python2与python3的区别笔记.md。

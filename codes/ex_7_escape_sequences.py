@@ -1,0 +1,12 @@
+# \\            反斜杠(\)
+# \'            单引号(')
+# \"            双引号(")
+# \a            ASCII响铃符(BEL)
+# \b            ASCII退格符(BS)
+# \f            ASCII进纸符(FF)
+# \n            ASCII换行符(LF)
+# \N{name}      Unicode数据库的字符名，其中name是它的名字，仅适用Unicode
+# \r            ASCII回车符(CR)
+# \t            ASCII水平制表符(TAB)
+# \v            ASCII垂直制表符(VT)
+# \ooo          值为八进制值ooo的字符
