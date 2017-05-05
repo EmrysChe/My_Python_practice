@@ -31,29 +31,59 @@
 >代码例子：
 >
 >```python
->   print("please input str1:")
->   str1 = input()
->   print("str2:")
->   str2 = input()
->   print("str1 + str2 = %s" % (str1+str2))
+>print("please input str1:")
+>str1 = input()
+>print("str2:")
+>str2 = input()
+>print("str1 + str2 = %s" % (str1+str2))
 >
->   print("please input number a1:")
->   a1 = int(input())
->   print("a2:")
->   a2 = int(input())
->   print("a1 + a2 = %d" % (a1+a2))
+>print("please input number a1:")
+>a1 = int(input())
+>print("a2:")
+>a2 = int(input())
+>print("a1 + a2 = %d" % (a1+a2))
 >```
 >
 >结果为：
 >
->       str1 + str2 = 1111
->       please input str1:
->       11
->       str2:
->       11
->       str1 + str2 = 1111
->       please input number a1:
->       11
->       a2:
->       11
->       a1 + a2 = 22
+>```
+>str1 + str2 = 1111
+>please input str1:
+>11
+>str2:
+>11
+>str1 + str2 = 1111
+>please input number a1:
+>11
+>a2:
+>11
+>a1 + a2 = 22
+>```
+>
+
+## argv用法
+
+>创建ex\_9\_get\_argument.py文件
+>```python
+>from sys import argv
+>
+>script, first = argv
+>
+>print("The script is called:", script)
+>print("first:", first)
+>```
+>
+>在命令行输入
+>
+>```powershell
+>python ex_9_get_argument.py 1
+>```
+>
+>其中ex\_9\_get\_argument.py，1为参数
+>
+>显示
+>
+>```
+>The script is called: ex_9_get_argument.py
+>first: 1
+>```

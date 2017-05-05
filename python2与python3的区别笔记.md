@@ -8,56 +8,60 @@
 >在Python 2中“print”为表达式，用法例子：
 >
 >```python
->   print "hello python"
->   print 'hello python'
+>print "hello python"
+>print 'hello python'
 >```
 >
 >在Python 3中“print”为函数，用法例子：
 >
 >```python
->   print("hello python")
->   print('hello python')
+>print("hello python")
+>print('hello python')
 >```
 >
 >### 2. 更多
 >
 >在Python 2中可以
 >```python
->   str1 = "W"
->   str2 = "h"
->   str3 = "y"
->   str4 = "I"
->   str5 = "did"
->   str6 = "such"
->   str7 = "a"
->   str8 = "silly"
->   str9 = "thing"
->   str0 = " "
->   print str1+str2+str3+str0+str4+str0+str5+str0+str6,
->   print str7+str0+str8+str0+str9
+>str1 = "W"
+>str2 = "h"
+>str3 = "y"
+>str4 = "I"
+>str5 = "did"
+>str6 = "such"
+>str7 = "a"
+>str8 = "silly"
+>str9 = "thing"
+>str0 = " "
+>print str1+str2+str3+str0+str4+str0+str5+str0+str6,
+>print str7+str0+str8+str0+str9
 >```
 >
 >显示为：
 >
->       Why I did such a silly thing
+>```
+>Why I did such a silly thing
+>```
 >
 >但在Python 3中
 >
 >```python
->   print(str1+str2+str3+str0+str4+str0+str5+str0+str6+str0+str7+str0+str8+str0+str9)
+>print(str1+str2+str3+str0+str4+str0+str5+str0+str6+str0+str7+str0+str8+str0+str9)
 >```
 >
 >才能显示为这样。如果
 >
 >```python
->   print(str1+str2+str3+str0+str4+str0+str5+str0+str6),
->   print(str7+str0+str8+str0+str9)
+>print(str1+str2+str3+str0+str4+str0+str5+str0+str6),
+>print(str7+str0+str8+str0+str9)
 >```
 >
 >则会显示为：
 >
->       Why I did such
->       a silly thing
+>```
+>Why I did such
+>a silly thing
+>```
 >
 >我不知道Python 3如何解决那么长的一行代码，变成两行后还是效果一样，但谁会那么傻地去写那么长一行代码，至少，实际中很难遇到这样的情况。
 
@@ -68,33 +72,34 @@
 >Python 3代码例子：
 >
 >```python
->   print("please input str1:")
->   str1 = input()
->   print("str2:")
->   str2 = input()
->   print("str1 + str2 = %s" % (str1+str2))
+>print("please input str1:")
+>str1 = input()
+>print("str2:")
+>str2 = input()
+>print("str1 + str2 = %s" % (str1+str2))
 >
->   print("please input number a1:")
->   a1 = int(input())
->   print("a2:")
->   a2 = int(input())
->   print("a1 + a2 = %d" % (a1+a2))
+>print("please input number a1:")
+>a1 = int(input())
+>print("a2:")
+>a2 = int(input())
+>print("a1 + a2 = %d" % (a1+a2))
 >```
 >
 >结果为：
 >
->       str1 + str2 = 1111
->       please input str1:
->       11
->       str2:
->       11
->       str1 + str2 = 1111
->       please input number a1:
->       11
->       a2:
->       11
->       a1 + a2 = 22
->
+>```
+>str1 + str2 = 1111
+>please input str1:
+>11
+>str2:
+>11
+>str1 + str2 = 1111
+>please input number a1:
+>11
+>a2:
+>11
+>a1 + a2 = 22
+>```
 >
 >在python 2中从控制台接收输入的方式有两种：
 >input()和raw_input(),当输入为纯数字时,input返回的是数值类型。
