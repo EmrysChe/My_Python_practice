@@ -20,16 +20,20 @@ Please do not send me __something strange__, I am still a child...
 
 PS:I am not good at English.
 
-## 2017.4.26更新
+## 2017.04.26更新
 
->codes中增加了ex\_5\_string.py、ex\_6\_much\_more\_print.py、ex\_7\_escape\_sequences.py、ex\_8\_input.py文件；
->
->增加了python学习笔记.md,记录我学Python中的一些知识点和心得;
->
->更新了python2与python3的区别笔记.md。
+codes中增加了ex\_5\_string.py、ex\_6\_much\_more\_print.py、ex\_7\_escape\_sequences.py、ex\_8\_input.py文件；
 
-## 2017.5.5更新
+增加了python学习笔记.md,记录我学Python中的一些知识点和心得;
 
->python学习笔记.md文件中增加了argv参数的用法的记录
->
->更改了python学习笔记.md和python2与python3的区别笔记.md文件的部分markdown语句的语言风格
+更新了python2与python3的区别笔记.md。
+
+## 2017.05.05更新
+
+python学习笔记.md文件中增加了argv参数的用法的记录；
+
+更改了python学习笔记.md和python2与python3的区别笔记.md文件的部分markdown语句的语言风格。
+
+## 2017.08.06更新
+
+增加了ex\_9\_get\_argument.py、ex\_10\_file\_operation.py、ex\_11\_function\_base.py文件。
