@@ -37,3 +37,11 @@ python学习笔记.md文件中增加了argv参数的用法的记录；
 ## 2017.08.06更新
 
 增加了ex\_9\_get\_argument.py、ex\_10\_file\_operation.py、ex\_11\_function\_base.py文件。
+
+## 2017.10.02更新
+
+增加了ex\_12\_if.py、ex\_13\_list\_&\_while\_&\_for.py文件。
+
+修改了ex\_11\_function\_base.py部分代码。
+
+python学习笔记.md中增加了"print()用法"
