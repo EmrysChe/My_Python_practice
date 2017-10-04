@@ -45,3 +45,9 @@ python学习笔记.md文件中增加了argv参数的用法的记录；
 修改了ex\_11\_function\_base.py部分代码。
 
 python学习笔记.md中增加了"print()用法"
+
+## 2017.10.04更新
+
+增加了ex\_14\_dictionary.py、ex\_15\_class.py文件。
+
+python学习笔记.md中增加了"Python类内的变量数据储存问题"
