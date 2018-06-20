@@ -17,6 +17,18 @@ def func4():
     a,b = func3()
     print(a,b);
 
+def func5(parm1,*parm2,**parm3):
+    '''Variable Argumen
+    
+20180620'''
+    print(parm1)
+    print('parm2:')
+    for parm in parm2:
+        print(parm)
+    print('parm3:')
+    for first_item,second_item in parm3.items():
+        print('{0}={1}'.format(first_item,second_item))
+
 def printFile(a):
     print(a.read())
 
@@ -46,3 +58,6 @@ printFile(file)
 print("print %r again" % filename)
 rewind(file)
 printFile(file)
+
+func5(1,2,3,4,a=1,b=2,c=3)
+print(func5.__doc__)
