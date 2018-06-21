@@ -17,6 +17,7 @@ if not os.path.exists(today_log_dir):
 for path in source_dir:
     if not os.path.exists(path):
         print('{0} does not exist'.format(path))
+        fail_count = fail_count + 1
         continue
     else:
         tmp = path.split('/')
