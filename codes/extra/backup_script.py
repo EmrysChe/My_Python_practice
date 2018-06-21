@@ -2,7 +2,6 @@
 
 ###################################
 #            for Linux            #
-#    date_time_filename.tar.gz    #
 ###################################
 import os
 import time
