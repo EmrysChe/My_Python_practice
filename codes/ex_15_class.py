@@ -36,3 +36,4 @@ class super_Z(X,Y):
         print("__init__() in class Z")
 
 B = super_Z(5)
+print(super_Z.__dict__)
